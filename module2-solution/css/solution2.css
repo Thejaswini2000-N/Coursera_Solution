@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: rgb(239 36 148);
+    border: 2px solid black;
+}
+@media (min-width : 992px) {
+    .col-lg-4 {
+        width: 32.66%;
+        float: left;
+      }
+      .juice-section {
+        left:14px
+      }
+      .nonveg-section {
+        left: 7px;
+      }
+}
+@media (min-width: 768px) and (max-width : 991px) {
+    .col-md-6 {
+        width: 49%;
+        float: left;
+        margin-bottom: 14px;
+        position : static;
+      }
+      .juice-section {
+        width: 100%;
+      }
+      .nonveg-section {
+        position: absolute !important;
+    top: 128px;
+    right: 2px;
+      }
+}
+@media (max-width: 767px) {
+    .col-xs-12 {
+        width: 100%;
+        float: left;
+        margin-bottom: 14px;
+      }
+}
+.col {
+    background-color: rgb(86 185 232);
+    height: 320px;
+    position: relative;
+border: 2px solid rgb(0, 0, 0);
+margin-right: 4px;
+font-family: Helvetica;
+}
+h2{
+    text-align: right;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-block-start: 0em;
+}
+.juice-section h2 {
+    padding-right: 16px;
+    background-color: rgb(242 210 15);;
+    padding-left: 16px;
+}
+.nonveg-section h2 {
+    padding-right: 22px;
+    background-color: rgb(232 119 33);
+    padding-left: 22px;
+}
+.veg-section h2 {
+    background-color: rgb(69 216 21 / 63%);;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+ol > li {
+    font-size: 17px;
+    font-weight: 600;
+}
+ul > li {
+    font-size: 16px;
+    font-weight: 100;
+}
+.juice-container,
+.non-veg-container,
+.veg-container {
+    position: relative;
+}
+.juice-container h2,
+.non-veg-container h2,
+.veg-container h2 {
+    position: absolute;
+    top: -16px;
+    right: 0;
+}
+.juice-container ol,
+.non-veg-container ol,
+.veg-container ol {
+    padding-top: 15px;
+}
